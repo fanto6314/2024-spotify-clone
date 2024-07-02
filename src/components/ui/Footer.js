@@ -1,4 +1,5 @@
 import React from "react";
+import { Slider } from "@mui/material";
 import { FiPlusCircle } from "react-icons/fi";
 import { TfiControlShuffle } from "react-icons/tfi";
 import { GiPreviousButton, GiNextButton } from "react-icons/gi";
@@ -13,7 +14,6 @@ import { IoResizeOutline } from "react-icons/io5";
 import { GrVolumeLow } from "react-icons/gr";
 
 import anto from '../../assets/img/anto.png';
-import { Slider } from "@mui/material";
 
 export default function Footer() {
   return (
