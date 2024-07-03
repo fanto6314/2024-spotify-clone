@@ -10,7 +10,7 @@ import anto from '../assets/img/anto.png';
 
 export default function DashboardLibrary() {
   return (
-    <section className="dashboard-links bg-[#121212] rounded-lg p-3 space-y-3">
+    <section className="dashboard-links bg-[#121212] rounded-lg p-3 space-y-3 min-h-full">
       <div className="flex items-center justify-between space-x-4 text-gray-400">
         <div className="flex items-center space-x-2">
           <TbLayoutSidebarLeftCollapseFilled className="text-xl"/>
