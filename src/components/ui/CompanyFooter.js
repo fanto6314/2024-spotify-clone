@@ -3,7 +3,7 @@ import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 
 export default function CompanyFooter() {
   return (
-    <div className="text-gray-400 py-8">
+    <div className="text-[#a7a7a7] py-8">
       <div className="container mx-auto px-10">
         <div className="flex flex-wrap justify-between text-sm">
           <div className="w-full md:w-1/5 mb-4 md:mb-0">
@@ -47,9 +47,9 @@ export default function CompanyFooter() {
             <FaFacebook className="text-4xl rounded-full bg-[#292929] p-2" />
           </div>
         </div>
-        <hr className="border-gray-600 my-8" />
-        <div className="flex justify-between mt-12 mb-16">
-          <div className="w-auto text-gray-400 text-sm">
+        <hr className="border-[#292929] my-8" />
+        <div className="flex justify-between mt-12 mb-12">
+          <div className="w-auto text-sm">
             <a href="#" className="hover:underline mr-4">Legal</a>
             <a href="#" className="hover:underline mr-4">Safety & Privacy Center</a>
             <a href="#" className="hover:underline mr-4">Privacy Policy</a>
@@ -57,7 +57,7 @@ export default function CompanyFooter() {
             <a href="#" className="hover:underline mr-4">About Ads</a>
             <a href="#" className="hover:underline">Accessibility</a>
           </div>
-          <div className="w-auto text-gray-400 text-sm text-right">
+          <div className="w-auto text-sm text-right">
             <span>&copy; 2024 Spotify AB</span>
           </div>
         </div>

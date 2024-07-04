@@ -167,7 +167,7 @@ export default function DashboardHero() {
         </div>
       </div>
       <div className="flex items-start justify-end w-full p-5">
-        <button className="text-gray-400 text-lg font-semibold mr-4">Refresh</button>
+        <button className="text-gray-400 text-base font-semibold mr-4">Refresh</button>
       </div>
       <CompanyFooter />
     </section>
